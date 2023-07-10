@@ -27,3 +27,6 @@
 
 Бот доступен в Telegram: [@Style_transfer_2023_bot](https://t.me/Style_transfer_2023_bot) ,  также добавлена краткая справка и подсказки.
 
+_____
+
+По всем вопросам обращаться в телеграм: [@TimurG_5](https://t.me/TimurG_5)
