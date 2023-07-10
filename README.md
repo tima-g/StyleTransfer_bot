@@ -17,4 +17,10 @@
   TG_BOT_TOKEN = '<YOUR TOKEN>'
 ```
 Где:
-- `<YOUR TOKEN>` -- токен вашего бота, который можно получить у официального бота сервиса Telegram для создания собственных ботов: @BotFather,
+- `<YOUR TOKEN>` -- токен вашего бота, который можно получить у официального бота сервиса Telegram для создания собственных ботов: @BotFather
+
+  ###Возможные результаты работы данного режима бота:
+
+Изначальное изображение    |  Переносимый стиль        |  Итоговое изображение
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/tima-g/StyleTransfer_bot/blob/main/images/content.jpg" height="250" width="250">  |  <img src="https://github.com/tima-g/StyleTransfer_bot/blob/main/images/style.jpg" height="250" width="181">  |   <img src="https://github.com/tima-g/StyleTransfer_bot/blob/main/images/result.jpg" height="250"  width="250">
