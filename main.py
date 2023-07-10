@@ -7,16 +7,16 @@ from aiogram.types import InlineKeyboardButton
 from aiogram.types import reply_keyboard
 
 from net import *  # Import architecture
-from functions import *  # Import functions
+from funcn import *  # Import functions
 
 # Set API_TOKEN. You must have your own.
-API_TOKEN = '6383658139:AAEDVkkm1Kfn7NMlIwoPTYYZAfsKTSa6CCs'
+TG_BOT_TOKEN = '6383658139:AAEDVkkm1Kfn7NMlIwoPTYYZAfsKTSa6CCs'
 
 # Configure logging.
 logging.basicConfig(level=logging.INFO)
 
 # Initialize bot and dispatcher.
-bot = Bot(token=API_TOKEN)
+bot = Bot(token=TG_BOT_TOKEN)
 dp = Dispatcher(bot)
 
 # Initialize the net.
@@ -177,11 +177,11 @@ async def processing(message: types.Message):
     """Image processing depending on the selected quality."""
 
     if message.text == 'Low':
-        image_size = 256
+        image_size = 128
     elif message.text == 'Medium':
-        image_size = 300
+        image_size = 256
     else:
-        image_size = 350
+        image_size = 512
 
     await message.answer(text='Обработка началась и займет некоторое время. '
                     '- Подожди немного.',
@@ -193,5 +193,6 @@ async def processing(message: types.Message):
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True, on_startup= set_default_commands)
+
 
 
