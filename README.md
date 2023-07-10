@@ -24,3 +24,6 @@
 Изначальное изображение    |  Переносимый стиль        |  Итоговое изображение
 :-------------------------:|:-------------------------:|:-------------------------:
 <img src="https://github.com/tima-g/StyleTransfer_bot/blob/main/images/content.jpg" height="250" width="250">  |  <img src="https://github.com/tima-g/StyleTransfer_bot/blob/main/images/style.jpg" height="250" width="181">  |   <img src="https://github.com/tima-g/StyleTransfer_bot/blob/main/images/result.jpg" height="250"  width="250">
+
+Бот доступен в Telegram: @@Style_transfer_2023_bot ,  также добавлена краткая справка и подсказки.
+
